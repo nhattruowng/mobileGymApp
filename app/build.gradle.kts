@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.gymapplicationclient.gymapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.gymapplicationclient.gymapp"
