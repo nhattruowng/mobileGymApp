@@ -1,4 +1,4 @@
-package com.gymapplicationclient.gymapp;
+package com.projectswd.swd_gymapp;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.gymapplicationclient.gymapp;
+package com.projectswd.swd_gymapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.gymapplicationclient.gymapp", appContext.getPackageName());
+        assertEquals("com.projectswd.swd_gymapp", appContext.getPackageName());
     }
 }
