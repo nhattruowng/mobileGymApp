@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SWD_gymapp"
+rootProject.name = "GymApp"
 include(":app")

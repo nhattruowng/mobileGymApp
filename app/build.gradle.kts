@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.projectswd.swd_gymapp"
+    namespace = "com.projectswd.gymapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.projectswd.swd_gymapp"
+        applicationId = "com.projectswd.gymapp"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.annotation)
+    implementation(libs.preference)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
